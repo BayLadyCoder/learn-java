@@ -152,5 +152,20 @@ public class Main {
 
         String[] stringArr = new String[3]; // default value of String array is null
         System.out.println(Arrays.toString(stringArr)); // [null, null, null]
+
+
+        // Loops
+        // For loop
+        for(int i=0; i< names.length; i++){
+            System.out.println(names[i]);
+        }
+
+        // While loop
+        int i = 0;
+        while (i < 5) {
+            System.out.println(i);
+            i++;
+        }
+
     }
 }

@@ -219,5 +219,29 @@ public class Main {
                 System.out.println("Sunday");
                 break;
         }
+
+        int sum1 = add(10, 20);
+        int sum2 = add(10, 200);
+        System.out.println(sum1); // 30
+        System.out.println(sum2); // 210
+    }
+    /*
+          - Access Modifier
+          - static (optional)
+          - Return type
+          - Name
+          - Parameters (optional)
+          - Method Body
+          - Return value (optional)
+
+          Static keyword in Java
+          indicates that a particular member is not an instance,
+          but rather part of a type.
+          The static member will be shared among all instances of the class,
+          so we will only create one instance of it.
+      */
+    private static int add(int num1, int num2) {
+        int result = num1 + num2;
+        return result;
     }
 }

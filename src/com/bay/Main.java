@@ -1,5 +1,7 @@
 package com.bay;
 
+import java.awt.*;
+
 public class Main {
     public static void main(String[] args) {
 	    // single line comment
@@ -107,5 +109,12 @@ public class Main {
         System.out.println("    ".isEmpty()); // false
         System.out.println("    ".isBlank()); // true
         System.out.println("  hello  ".trim()); // hello
+
+
+        // Reference Types (Objects)
+        Point pointA = new Point(10, 10); // store coordinates
+        System.out.println("pointA = " + pointA);
+        pointA.move(11,12);
+        System.out.println("pointA = " + pointA);
     }
 }

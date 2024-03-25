@@ -167,5 +167,57 @@ public class Main {
             i++;
         }
 
+        // If statements
+        int score = 80;
+        if (score >= 90) {
+            System.out.println("Excellent!");
+        } else if(score >= 60){
+            System.out.println("Good job!");
+        } else {
+            System.out.println("You fail!");
+        }
+
+        // shorthand if else
+        int time = 20;
+        String greeting = (time < 18) ? "Good day." : "Good evening.";
+        System.out.println(greeting);
+
+        /*
+        Switch statements
+            switch(expression) {
+              case x:
+                // code block
+                break;
+              case y:
+                // code block
+                break;
+              default:
+                // code block
+            }
+         */
+        int day = 4;
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+        }
     }
 }
